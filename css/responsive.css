@@ -81,9 +81,16 @@
     
     
 }
-    
+@media (min-width: 768px){
+    .btn-llamar, .btn-mje, .btn-mapa{
+        display: none
+    }
+}
+
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    
+    
     .container, .wrapper.boxed-layout, .wrapper.box-layout {width:300px}
     .mobile-menu-area {display: block;}
     #sticky-header, .wrapper.boxed-layout #sticky-header, .wrapper.box-layout #sticky-header, #sticky-header.fixed {position: inherit;}
