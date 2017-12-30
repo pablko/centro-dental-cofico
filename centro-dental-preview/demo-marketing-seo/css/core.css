@@ -1,0 +1,45 @@
+/*Animate.css Duration*/
+.anidur-1s{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+}
+.anidur-15s{
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+}
+.anidur-2s{
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+}
+.anidur-25s{
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    -o-animation-duration: 2.5s;
+    -ms-animation-duration: 2.5s;
+}
+.anidur-3s{
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 1s;
+    -ms-animation-duration: 3s;
+}
+/*End Animate.css Duration*/
+
+.img-decare{
+    width: 300px;
+    position: absolute;
+    right: 200px
+}
+.barra-menu{
+    background-color: #fff;
+    height: 100px
+}
+.btn-menu li{
+    text-transform: uppercase
+}
