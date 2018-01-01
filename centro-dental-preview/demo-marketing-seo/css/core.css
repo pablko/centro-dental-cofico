@@ -44,14 +44,22 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
 }
+#tratamientos h1{
+    margin-top: 25px;
+    margin-bottom: 25px
+}
 #tratamientos img{
-    width: 90px;
+    max-height: 90px;
     display: block;
     margin: auto
+}
+#tratamientos .row{
+    margin-top: 40px;
 }
 .trat-text-box{
     text-align: center;
 }
 .trat-text-box h3{
-    font-size: 18px
+    font-size: 18px;
+    margin: a
 }
