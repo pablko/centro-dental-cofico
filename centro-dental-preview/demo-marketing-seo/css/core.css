@@ -56,6 +56,13 @@
 #tratamientos .row{
     margin-top: 40px;
 }
+.trat-view{
+    display: ;
+    transition: .5s
+}
+.trat-view:hover{
+    transform: scale(1.2);
+}
 .trat-text-box{
     text-align: center;
 }
