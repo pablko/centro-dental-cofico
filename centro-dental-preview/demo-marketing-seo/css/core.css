@@ -12,10 +12,10 @@
     -ms-animation-duration: 1.5s;
 }
 .anidur-2s{
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    -ms-animation-duration: 2s;
+    -webkit-animation-duration: 2s !important;
+    -moz-animation-duration: 2s !important;
+    -o-animation-duration: 2s !important;
+    -ms-animation-duration: 2s !important;
 }
 .anidur-25s{
     -webkit-animation-duration: 2.5s;
@@ -51,14 +51,14 @@
 #tratamientos img{
     max-height: 90px;
     display: block;
-    margin: auto
+    margin: auto;
+    transition: .5s
 }
-#tratamientos .row{
-    margin-top: 40px;
-}
+
 .trat-view{
     display: ;
-    transition: .5s
+    transition: .5s;
+    margin-top: 50px;
 }
 .trat-view:hover{
     transform: scale(1.2);
