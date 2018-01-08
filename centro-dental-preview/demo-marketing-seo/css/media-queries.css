@@ -6,7 +6,7 @@ and (max-width : 320px)
         min-height: 80vh
     }
     .slide-text{
-        top: 300px
+        top: 200px
     }
 }
 
@@ -19,7 +19,7 @@ and (max-width : 767px)
         min-height: 80vh
     }
     .slide-text{
-        top: 400px
+        top: 300px
     }
     .slide-text p{
         font-size: 15px;
