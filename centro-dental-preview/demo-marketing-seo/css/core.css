@@ -69,3 +69,63 @@
     font-size: 18px;
     margin: a
 }
+.btn-llamar{
+    height: 30px;
+    width: 60px;
+    position: fixed;
+    bottom: -1px;
+    left: 10px;
+    z-index: 10;
+    background-color: #1980a3;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 12px;
+    -webkit-transition:  0.7s;
+    -moz-transition:  0.7s;
+    -ms-transition:  0.7s;
+    -o-transition:  0.7s;
+    transition: 0.7s
+}
+.btn-mje{
+    height: 30px;
+    width: 60px;
+    position: fixed;
+    bottom: -1px;
+    left: 45%;
+    z-index: 10;
+    background-color: #1980a3;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 12px;
+    -webkit-transition:  0.7s;
+    -moz-transition:  0.7s;
+    -ms-transition:  0.7s;
+    -o-transition:  0.7s;
+    transition: 0.7s
+}
+.btn-mapa{
+    height: 30px;
+    width: 70px;
+    position: fixed;
+    bottom: -1px;
+    right: 10px;
+    z-index: 10;
+    background-color: #1980a3;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 12px;
+    -webkit-transition:  0.7s;
+    -moz-transition:  0.7s;
+    -ms-transition:  0.7s;
+    -o-transition:  0.7s;
+    transition: 0.7s
+}
