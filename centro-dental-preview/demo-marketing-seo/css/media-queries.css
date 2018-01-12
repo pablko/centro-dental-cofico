@@ -67,3 +67,13 @@ and (min-width : 1201px)
         bottom: 40vh
     }
 }
+
+/*Others*/
+
+@media (max-width: 451px){
+    .img-CDC{
+        width: 200px;
+        margin-left: -30px;
+        margin-right: -50px
+    }
+}

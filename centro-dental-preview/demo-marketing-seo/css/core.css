@@ -31,10 +31,9 @@
 }
 /*End Animate.css Duration*/
 
-.img-decare{
+.img-CDC{
     width: 300px;
-    position: absolute;
-    right: 200px
+    transition: .5s
 }
 .barra-menu{
     background-color: #fff;
