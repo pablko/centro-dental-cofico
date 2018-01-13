@@ -44,11 +44,12 @@
     font-weight: bold;
 }
 #tratamientos h1{
-    margin-top: 25px;
-    margin-bottom: 25px
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center
 }
 #tratamientos img{
-    max-height: 90px;
+    max-height: 70px;
     display: block;
     margin: auto;
     transition: .5s
@@ -66,7 +67,7 @@
     text-align: center;
 }
 .trat-text-box h3{
-    font-size: 18px;
+    font-size: 16px;
     margin: a
 }
 .btn-llamar{

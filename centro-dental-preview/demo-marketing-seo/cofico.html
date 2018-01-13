@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     
     <!-- CSS -->
-    <link href="../assets/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/node_modules/aos/dist/aos.css" rel="stylesheet">
     <link href="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet">
     <link href="../assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container" id="inicio">
         <nav class="navbar navbar-expand-lg navbar-light barra-menu">
           <a class="navbar-brand" href="cofico.html">
               <img src="../demo-marketing-seo/images/imagotipo-CDC-500px.png" class="img-CDC" alt="" title="Centro Dental Cofico">
@@ -38,13 +38,13 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav btn-menu pull-md-right">
               <li class="nav-item active">
-                <a class="nav-link" href="#slider-sec">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tratamientos</a>
+                <a class="nav-link" href="#tratamientos">Tratamientos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Galería</a>
@@ -111,46 +111,20 @@
         <section id="tratamientos">
             <h1>Tratamientos</h1>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-12 trat-view bounceInUp anidur-2s">
-                    <div>
-                        <img src="images/servicios-blanqueamiento.png" alt="">
-                    </div>
-                    <div class="trat-text-box">
-                        <h3>Blanqueamiento</h3>
-                    </div>
-                </div>
                 <div class="col-md-3 col-sm-6 col-12 trat-view">
                     <div>
-                        <img src="images/servicios-carillas-de-porcelana.png" alt="">
+                        <img src="images/servicios-estetica.png" width="100px" height="45px" style="margin-top: 15px" alt="">
                     </div>
-                    <div class="trat-text-box">
-                        <h3>Carillas de porcelana</h3>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 trat-view">
-                    <div>
-                        <img src="images/servicios-cirugia.png" alt="">
-                    </div>
-                    <div class="trat-text-box">
-                        <h3>Cirugía</h3>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 trat-view">
-                    <div>
-                        <img src="images/servicios-endodoncia.png" alt="">
-                    </div>
-                    <div class="trat-text-box">
-                        <h3>Endodoncia</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-12 trat-view">
-                    <div>
-                        <img src="images/servicios-estetica.png" width="150px" style="padding-top: 10px" alt="">
-                    </div>
-                    <div class="trat-text-box" style="padding-top: 2px">
+                    <div class="trat-text-box" style="padding-top: 10px">
                         <h3>Estética</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 trat-view">
+                    <div>
+                        <img src="images/servicios-ortodoncia.png" width="100px" style="margin-top: 16px;margin-bottom: 17px" alt="">
+                    </div>
+                    <div class="trat-text-box">
+                        <h3>Ortodoncia</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 trat-view">
@@ -163,6 +137,32 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 trat-view">
                     <div>
+                        <img src="images/servicios-carillas-de-porcelana.png" alt="">
+                    </div>
+                    <div class="trat-text-box">
+                        <h3>Carillas de porcelana</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12 trat-view">
+                    <div>
+                        <img src="images/servicios-protesis.png" alt="">
+                    </div>
+                    <div class="trat-text-box">
+                        <h3>Prótesis</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 trat-view">
+                    <div>
+                        <img src="images/servicios-blanqueamiento.png" alt="">
+                    </div>
+                    <div class="trat-text-box">
+                        <h3>Blanqueamiento</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 trat-view">
+                    <div>
                         <img src="images/servicios-operatoria.png" alt="">
                     </div>
                     <div class="trat-text-box">
@@ -171,44 +171,37 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 trat-view">
                     <div>
-                        <img src="images/servicios-ortodoncia.png" width="150px" style="margin-top: 16px;margin-bottom: 17px" alt="">
+                        <img src="images/servicios-cirugia.png" alt="">
                     </div>
                     <div class="trat-text-box">
-                        <h3>Ortodoncia</h3>
+                        <h3>Cirugía</h3>
                     </div>
                 </div>
+                
             </div>
             <div class="row" style="margin-bottom: 40px">
-                <div class="col-md-4 col-sm-6 trat-view">
+               <div class="col-sm-6 col-12 trat-view">
+                    <div>
+                        <img src="images/servicios-endodoncia.png" alt="">
+                    </div>
+                    <div class="trat-text-box">
+                        <h3>Endodoncia</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 trat-view">
                     <div>
                         <img src="images/servicios-prevencion.png" alt="">
                     </div>
                     <div class="trat-text-box">
                         <h3>Prevención</h3>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 trat-view">
-                    <div>
-                        <img src="images/servicios-proteccion.png" alt="">
-                    </div>
-                    <div class="trat-text-box">
-                        <h3>Protección</h3>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 trat-view">
-                    <div>
-                        <img src="images/servicios-protesis.png" alt="">
-                    </div>
-                    <div class="trat-text-box">
-                        <h3>Prótesis</h3>
-                    </div>
-                </div>
+                </div>       
             </div>
         </section>
         <div>
             <a href="tel:+5493516105950" class="btn-llamar">Llamar</a>
             <a href="https://api.whatsapp.com/send?phone=543516105950" class="btn-mje" target="_blank">Mensaje</a>
-            <a href="https://goo.gl/maps/UaVXT4SXe3D2" target="_blank" class="btn-mapa">Como llegar</a>
+            <a href="https://goo.gl/maps/UaVXT4SXe3D2" class="btn-mapa" target="_blank">Como llegar</a>
         </div>
     </div>
     
@@ -266,7 +259,15 @@
                 items: 1
             }
         }
-    })
+    });
+    </script>
+    <script>
+        $(function(){ 
+             var navMain = $("#navbarNav");
+             navMain.on("click", "a", null, function () {
+                 navMain.collapse('hide');
+             });
+         });
     </script>
 </body>
-</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+</html>
