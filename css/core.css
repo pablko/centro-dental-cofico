@@ -155,6 +155,45 @@
     font-size: 17px;
     margin-bottom: -5px;
 }
+.img-ind{
+    text-align: center
+}
+.img-grupal{
+    text-align: center;
+}
+.img-grupal img{
+    border-radius: 12px
+}
+.img-grupal h1{
+    position: absolute;
+    top: 1250px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    color: #e5d1d1;
+    background-color: rgba( 86, 76, 76, 0.353 )
+}
+.img-ind img{
+    height: 40%;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+.img-ind h1{
+    position: absolute;
+    top: 310px;
+    left: 0;
+    right: 0;
+    font-size: 18px
+}
+.img-ind ul{
+    margin-top: 40px;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 10px;
+}
 #tratamientos img{
     max-height: 70px;
     display: block;
