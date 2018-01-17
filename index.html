@@ -65,7 +65,7 @@
             <div class="slider-principal">
                 <div>
                     <img src="images/header/1-final.jpg" alt="">
-                    <div class="one slide1 text-slider">
+                    <div class="slide1 text-slider">
                         <h2>DESDE 1998</h2>
                         <h1>EST&Eacute;TICA SALUD ARMON&Iacute;A</h1>
                     </div>
@@ -139,6 +139,16 @@
                         <h2>DESDE 1998</h2>
                         <h1>EST&Eacute;TICA SALUD ARMON&Iacute;A</h1>
                     </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="nosotros">
+            <h1>Nosotros</h1>
+            <div class="row">
+                <div>
+                    <img class="img-grupal" src="images/foto-grupal-CDC.jpg" alt="" width="80%">
                 </div>
             </div>
         </section>
@@ -326,11 +336,11 @@
                 $(".text-slider.active-slide").addClass("wow animated fadeInUp anidur-1s");
 
                 },
-//              onSlideBefore: function () {
-//                $(".text-slider.active-slide").removeClass("wow animated fadeInUp anidur-1s");
-//                $(".one.slider-text.active-slide").removeAttr('style');
-//
-//                }
+              onSlideBefore: function () {
+                $(".text-slider.active-slide").removeClass("wow animated fadeInUp anidur-1s");
+                $(".slider-text.active-slide").removeAttr('style');
+
+                }
           });
         });
     </script>
