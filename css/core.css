@@ -37,7 +37,7 @@
 }
 /*End Animate.css Duration*/
 
-#nosotros h1, #tratamientos h1, #galeria h1{
+#nosotros h1, #tratamientos h1, #galeria h1, #contacto h1{
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center
@@ -59,107 +59,35 @@
 
 /*Slider*/
 .slider-principal{
+    position: absolute
 }
 .slider-principal img{
     max-height: 80vh;
     margin: 0 auto
 }
-.text-slider{
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    bottom: 0;
+.texto-fijo{
     text-align: center;
+    position: absolute;
+    z-index: 50;
+    top: 750px;
     left: 0;
     right: 0;
-    border-radius: 8px;
-    margin-left: 310px;
-    margin-right: 310px;
-    margin-bottom: 5px;
-    visibility: hidden
 }
-.text-slider.active-slide{
-    visibility: visible;
+.texto-fijo .wow{
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba( 71, 71, 71, 0.456 );
+    border-radius: 12px
 }
-.slide1{
-    background-color: rgba( 201, 201, 201, 0.216 );
-    border: 4px solid rgba( 142, 142, 142, 0.198 );
+.texto-fijo h1{
+    font-size: 25px;
+    margin-top: -20px;
+    color: #FFF
 }
-.slide1 h1, .slide1 h2{
-    color: rgba( 132, 132, 132, 0.679 )
-}
-.slide2{
-    background-color: rgba( 114, 114, 114, 0.194 );
-    border: 4px solid rgba( 255, 255, 255, 0.529 );
-}
-.slide2 h1, .slide2 h2{
-    color: rgba( 255, 255, 255, 0.613 )
-}
-.slide3{
-    background-color: rgba( 601, 801, 901, 0.416 );
-    border: 4px solid rgba( 91, 91, 91, 0.501 );
-}
-.slide3 h1, .slide3 h2{
-    color: rgba( 91, 91, 91, 0.801 )
-}
-.slide4{
-    background-color: rgba( 601, 801, 901, 0.416 );
-    border: 4px solid rgba( 142, 142, 142, 0.198 );
-}
-.slide4 h1, .slide4 h2{
-    color: rgba( 58, 58, 58, 0.859 )
-}
-.slide5, .slide6{
-    background-color: rgba( 601, 801, 901, 0.416 );
-    border: 4px solid rgba( 142, 142, 142, 0.198 );
-}
-.slide5 h1, .slide5 h2,.slide6 h1, .slide6 h2{
-    color: rgba( 58, 58, 58, 0.859 )
-}
-.slide7{
-    background-color: rgba( 601, 801, 901, 0.416 );
-    border: 4px solid rgba( 142, 142, 142, 0.198 );
-    margin-left: 310px;
-    margin-right: 310px
-}
-.slide7 h1, .slide7 h2{
-    color: rgba( 58, 58, 58, 0.859 )
-}
-.slide8{
-    background-color: rgba( 601, 801, 901, 0.416 );
-    border: 4px solid rgba( 142, 142, 142, 0.698 );
-    margin-left: 310px;
-    margin-right: 310px
-}
-.slide8 h1, .slide8 h2{
-    color: rgba( 45, 45, 45, 0.859 )
-}
-.slide9{
-    background-color: rgba( 196, 196, 196, 0.345 );
-    border: 4px solid rgba( 255, 255, 255, 0.534 );
-}
-.slide9 h1, .slide9 h2{
-    color: rgba( 255, 255, 255, 0.814 )
-}
-.slide10{
-    background-color: rgba( 196, 196, 196, 0.545 );
-    border: 4px solid rgba( 77, 70, 70, 0.334 );
-}
-.slide10 h1, .slide10 h2{
-    color: rgba( 77, 70, 70, 0.942 )
-}
-.slide11{
-    background-color: rgba( 2, 2, 2, 0.346 );
-    border: 4px solid rgba( 48, 48, 48, 0.151 );
-}
-.slide11 h1, .slide11 h2{
-    color: rgba( 255, 255, 255, 0.773 )
-}
-.text-slider h1{
-    font-size: 30px;
-}
-.text-slider h2{
-    font-size: 17px;
-    margin-bottom: -5px;
+.texto-fijo h2{
+    font-size: 18px;
+    color: #FFF
 }
 
 /*Nosotros*/
@@ -270,68 +198,145 @@
     height: 20px
 }
 
+/*Contacto*/
+
+.inf-cont{
+    background-color: rgba( 143, 200, 203, 0.236 );
+    color: #595959;
+    border-radius: 12px;
+    height: 250px;
+    margin-top: 10px
+}
+.inf-cont b{
+    font-weight: 500
+}
+.inf-cont h2{
+    text-align: center;
+    padding-top: 20px
+}
+.inf-cont ul{
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: center;
+    display: inline ;
+}
+.inf-cont ul li{
+    vertical-align: middle
+}
+.mapa-cont{
+    overflow:hidden;
+    position:relative;
+}
+.mapa-cont iframe{
+    left:0;
+    top:0;
+    width:95%;
+    position:absolute;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+/*Footer*/
+
+#footer{
+    background-color: #97b8c8;
+    margin-top: 20px;
+}
+.footer-bar{
+    height: 100px;
+    text-align: center;
+    margin-bottom: -10px
+}
+.footer-bar img{
+    height: 50px;
+    margin-top: 5px    
+}
+.footer-bar h6{
+    font-size: 12px;
+    color: #2b4c82
+}
+.footer-bar p{
+    font-size: 12px;
+    color: #2b4c82;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-weight: 500;
+}
+remark a{
+    padding: 5px 4px 2px 4px;
+    font-weight: 100;
+    color: #292979 !important;
+    border-radius: 4px;
+    font-family: 'Mogra', cursive;
+    text-transform: uppercase
+}
+
 /*Botones de acceso rapido*/
 
 .btn-llamar{
     height: 30px;
     width: 60px;
     position: fixed;
-    bottom: -1px;
+    bottom: 10px;
     left: 10px;
     z-index: 10;
     background-color: #1980a3;
     color: white;
     padding-top: 5px;
     text-align: center;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
     font-size: 12px;
-    -webkit-transition:  0.7s;
-    -moz-transition:  0.7s;
-    -ms-transition:  0.7s;
-    -o-transition:  0.7s;
-    transition: 0.7s;
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    -ms-transition:  0.3s;
+    -o-transition:  0.3s;
+    transition: 0.3s;
     display: none
 }
 .btn-mje{
     height: 30px;
     width: 60px;
     position: fixed;
-    bottom: -1px;
-    left: 45%;
+    bottom: 10px;
+    left: 44%;
     z-index: 10;
     background-color: #1980a3;
     color: white;
     padding-top: 5px;
     text-align: center;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
     font-size: 12px;
-    -webkit-transition:  0.7s;
-    -moz-transition:  0.7s;
-    -ms-transition:  0.7s;
-    -o-transition:  0.7s;
-    transition: 0.7s;
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    -ms-transition:  0.3s;
+    -o-transition:  0.3s;
+    transition: 0.3s;
     display: none
 }
 .btn-mapa{
     height: 30px;
     width: 70px;
     position: fixed;
-    bottom: -1px;
+    bottom: 10px;
     right: 10px;
     z-index: 10;
     background-color: #1980a3;
     color: white;
-    padding-top: 5px;
+    padding-top: 3px;
     text-align: center;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
     font-size: 12px;
-    -webkit-transition:  0.7s;
-    -moz-transition:  0.7s;
-    -ms-transition:  0.7s;
-    -o-transition:  0.7s;
-    transition: 0.7s;
-    display: none
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    -ms-transition:  0.3s;
+    -o-transition:  0.3s;
+    transition: 0.3s;
+    display: none;
+    line-height: 12px
+}
+.btn-llamar:hover,.btn-mje:hover,.btn-mapa:hover{
+    color: #fff;
+    transform: scale(1.1)
 }

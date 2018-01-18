@@ -1,5 +1,5 @@
 /* Smartphones (portrait) ---------------- */
-@media only screen 
+@media  screen 
 and (max-width : 320px)
 {
     .btn-menu li{
@@ -20,7 +20,7 @@ and (max-width : 320px)
 }
 
 /* Smartphones (landscape) ---------------- */
-@media only screen 
+@media  screen 
 and (min-width : 321px)
 and (max-width : 767px)
 {
@@ -40,7 +40,7 @@ and (orientation : portrait)
 }
 
 /* Tablets (landscape) ------------------- */
-@media only screen 
+@media  screen 
 and (min-width : 768px) 
 and (max-width : 1024px) 
 and (orientation : landscape)
@@ -55,23 +55,16 @@ and (orientation : landscape)
 }
 
 /* Old Desktops and laptops ------------------ */
-@media only screen 
+@media  screen 
 and (min-width : 1025px) 
 {
-    .text-slider{
-        margin-left: 240px;
-        margin-right: 240px;
-    }
-    .text-slider h1{
-        font-size: 25px
-    }
 }
 
 /* Desktops ------------------ */
-@media only screen 
-and (min-width : 1201px) 
+@media  screen 
+and (min-width : 1200px) 
 {
-    
+
 }
 /*Others*/
 
@@ -80,6 +73,28 @@ and (min-width : 1201px)
         width: 200px;
         margin-left: -30px;
         margin-right: -50px
+    }
+    .mapa-cont{
+        height: 400px
+    }
+}
+@media (max-width: 767px){
+    .btn-llamar,.btn-mje,.btn-mapa{
+        display: block
+    }
+    .inf-cont{
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .mapa-cont{
+        height: 350px;
+        margin-left: 5px;
+        margin-right: 5px
+    }
+    .mapa-cont iframe{
+        margin: 0;
+        margin-top: 10px;
+        width:100%
     }
 }
 @media (max-width: 991px){
@@ -96,25 +111,44 @@ and (min-width : 1201px)
         margin: 0
     }
 }
+@media (min-width: 992px) and (max-width: 1199px){
+    .texto-fijo{
+        top: 630px
+    }
+    .texto-fijo .wow{
+        width: 500px;
+        height: 60px;
+    }
+    .texto-fijo h1{
+        font-size: 25px;
+        margin-top: -25px
+    }
+    .texto-fijo h2{
+        font-size: 18px;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px){
     .btn-menu li{
         text-align: center
     }
-    .text-slider{
-        margin-left: 130px;
-        margin-right: 130px;
-        height: 70px;
-    }
-    .text-slider h1{
-        margin-top: -10px;
-        font-size: 25px
-    }
-    .text-slider h2{
-        margin-top: -3px
-    }
     .img-grupal h1{
         top: 360px;
         font-size: 30px
+    }
+    .texto-fijo{
+        top: 480px
+    }
+    .texto-fijo .wow{
+        width: 500px;
+        height: 60px;
+    }
+    .texto-fijo h1{
+        font-size: 25px;
+        margin-top: -25px
+    }
+    .texto-fijo h2{
+        font-size: 18px;
+        margin-top: 
     }
 }
 @media (min-width: 576px) and (max-width : 767px){
@@ -122,31 +156,48 @@ and (min-width : 1201px)
         top: 240px;
         font-size: 23px;
     }
+    .texto-fijo{
+        top: 375px
+    }
+    .texto-fijo .wow{
+        width: 300px;
+        height: 50px
+    }
+    .texto-fijo h1{
+        font-size: 20px;
+        margin-top: -30px
+    }
+    .texto-fijo h2{
+        font-size: 14px;
+    }
 }
 @media (min-width: 507px) and (max-width : 575px){
     .img-grupal h1{
         top: 220px;
         font-size: 4vw;
     }
+    .texto-fijo{
+        top: 4.1%
+    }
+    .texto-fijo .wow{
+        width: 300px;
+        height: 50px;
+    }
+    .texto-fijo h1{
+        font-size: 18px;
+        margin-top: -25px
+    }
+    .texto-fijo h2{
+        font-size: 13px;
+        margin-top: 
+    }
 }
 @media (min-width: 507px) and (max-width : 767px){
     .btn-menu li{
         text-align: center
     }
-    .text-slider{
-        margin: 0 80px;
-        height: 60px
-    }
-    .text-slider h1{
-        font-size: 20px;
-        margin-top: -15px
-    }
-    .text-slider h2{
-        font-size: 12px;
-        margin: -5px 0
-    }
 }
-@media (min-width: 440px) and (max-width : 506px){
+@media (min-width: 452px) and (max-width : 506px){
     .img-grupal h1{
         top: 60%;
         font-size: 22px;
@@ -155,8 +206,23 @@ and (min-width : 1201px)
     .img-grupal h1 span{
         border-radius: 0
     }
+    .texto-fijo{
+        top: 3.7% !important
+    }
+    .texto-fijo .wow{
+        width: 300px;
+        height: 50px;
+    }
+    .texto-fijo h1{
+        font-size: 18px;
+        margin-top: -25px
+    }
+    .texto-fijo h2{
+        font-size: 13px;
+        margin-top: 
+    }
 }
-@media (min-width: 321px) and (max-width : 439px){
+@media (min-width: 321px) and (max-width : 451px){
     .img-grupal h1{
         top: 43%;
         font-size: 22px;
@@ -170,20 +236,22 @@ and (min-width : 1201px)
     .btn-menu li{
         text-align: center
     }
-    .text-slider{
-        margin: 0 10px;
-        height: 50px
-    }
-    .text-slider h1{
-        font-size: 16px;
-        margin-top: -20px
-    }
-    .text-slider h2{
-        font-size: 10px;
-        margin: -5px 0
-    }
     .salto-linea{
         display: block;
     }
-
+    .texto-fijo{
+        top: 2.8%
+    }
+    .texto-fijo .wow{
+        width: 258px;
+        height: 50px;
+    }
+    .texto-fijo h1{
+        font-size: 16px;
+        margin-top: -28px
+    }
+    .texto-fijo h2{
+        font-size: 13px;
+        margin-top: 
+    }
 }
