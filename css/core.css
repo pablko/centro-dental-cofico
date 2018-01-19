@@ -72,6 +72,7 @@
     top: 750px;
     left: 0;
     right: 0;
+    display: none
 }
 .texto-fijo .wow{
     width: 500px;
