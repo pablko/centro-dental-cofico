@@ -65,16 +65,18 @@
     max-height: 80vh;
     margin: 0 auto
 }
+#header{
+    position: relative
+}
 .texto-fijo{
     text-align: center;
     position: absolute;
     z-index: 50;
-    top: 750px;
+    bottom: 10px;
     left: 0;
     right: 0;
-    display: none
 }
-.texto-fijo .wow{
+.texto-fijo .texto-interno{
     width: 500px;
     position: relative;
     margin: 0 auto;
@@ -277,17 +279,17 @@ remark a{
 /*Botones de acceso rapido*/
 
 .btn-llamar{
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     bottom: 10px;
     left: 10px;
     z-index: 10;
     background-color: #1980a3;
     color: white;
-    padding-top: 5px;
+    padding-top: 8px;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 25px;
     font-size: 12px;
     -webkit-transition:  0.3s;
     -moz-transition:  0.3s;
@@ -297,8 +299,8 @@ remark a{
     display: none
 }
 .btn-mje{
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     bottom: 10px;
     left: 44%;
@@ -306,8 +308,9 @@ remark a{
     background-color: #1980a3;
     color: white;
     padding-top: 5px;
+    padding-left: 1px;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 25px;
     font-size: 12px;
     -webkit-transition:  0.3s;
     -moz-transition:  0.3s;
@@ -317,17 +320,17 @@ remark a{
     display: none
 }
 .btn-mapa{
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     bottom: 10px;
     right: 10px;
     z-index: 10;
     background-color: #1980a3;
     color: white;
-    padding-top: 3px;
+    padding-top: 6px;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 25px;
     font-size: 12px;
     -webkit-transition:  0.3s;
     -moz-transition:  0.3s;

@@ -5,67 +5,8 @@ and (max-width : 320px)
     .btn-menu li{
         text-align: center
     }
-    .text-slider{
-        margin: 0 5px;
-        height: 50px
-    }
-    .text-slider h1{
-        font-size: 14px;
-        margin-top: -20px
-    }
-    .text-slider h2{
-        font-size: 9px;
-        margin: -5px 0
-    }
 }
 
-/* Smartphones (landscape) ---------------- */
-@media  screen 
-and (min-width : 321px)
-and (max-width : 767px)
-{
-    
-}
-
-/* Tablets (portrait) -------------------- */
-@media  
-and (min-width : 768px) 
-and (max-width : 1024px) 
-and (orientation : portrait)
-{
-    .text-slider{
-        margin-left: 250px;
-        margin-right: 250px;
-    }
-}
-
-/* Tablets (landscape) ------------------- */
-@media  screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
-and (orientation : landscape)
-{
-    .text-slider{
-        margin-left: 240px;
-        margin-right: 240px;
-    }
-    .text-slider h1{
-        font-size: 25px
-    }
-}
-
-/* Old Desktops and laptops ------------------ */
-@media  screen 
-and (min-width : 1025px) 
-{
-}
-
-/* Desktops ------------------ */
-@media  screen 
-and (min-width : 1200px) 
-{
-
-}
 /*Others*/
 
 @media (max-width: 451px){
@@ -96,6 +37,9 @@ and (min-width : 1200px)
         margin-top: 10px;
         width:100%
     }
+    #footer{
+        padding-bottom: 50px
+    }
 }
 @media (max-width: 991px){
     .ind-izq{
@@ -112,10 +56,7 @@ and (min-width : 1200px)
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-    .texto-fijo{
-        top: 630px
-    }
-    .texto-fijo .wow{
+    .texto-fijo .texto-interno{
         width: 500px;
         height: 60px;
     }
@@ -135,10 +76,7 @@ and (min-width : 1200px)
         top: 360px;
         font-size: 30px
     }
-    .texto-fijo{
-        top: 480px
-    }
-    .texto-fijo .wow{
+    .texto-fijo .texto-interno{
         width: 500px;
         height: 60px;
     }
@@ -156,10 +94,7 @@ and (min-width : 1200px)
         top: 240px;
         font-size: 23px;
     }
-    .texto-fijo{
-        top: 375px
-    }
-    .texto-fijo .wow{
+    .texto-fijo .texto-interno{
         width: 300px;
         height: 50px
     }
@@ -176,10 +111,7 @@ and (min-width : 1200px)
         top: 220px;
         font-size: 4vw;
     }
-    .texto-fijo{
-        top: 4.1%
-    }
-    .texto-fijo .wow{
+    .texto-fijo .texto-interno{
         width: 300px;
         height: 50px;
     }
@@ -197,7 +129,7 @@ and (min-width : 1200px)
         text-align: center
     }
 }
-@media (min-width: 452px) and (max-width : 506px){
+@media (min-width: 452px) and (max-width: 506px){
     .img-grupal h1{
         top: 60%;
         font-size: 22px;
@@ -206,10 +138,7 @@ and (min-width : 1200px)
     .img-grupal h1 span{
         border-radius: 0
     }
-    .texto-fijo{
-        top: 3.7% !important
-    }
-    .texto-fijo .wow{
+    .texto-fijo .texto-interno{
         width: 300px;
         height: 50px;
     }
@@ -231,6 +160,30 @@ and (min-width : 1200px)
     .img-grupal h1 span{
         border-radius: 0
     }
+    .texto-fijo{
+    }
+    .texto-fijo .texto-interno{
+        width: 200px;
+        height: 35px;
+    }
+    .texto-fijo h1{
+        font-size: 13px;
+        margin-top: -28px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -16px
+    }
+    .texto-fijo h2{
+        font-size: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -7px
+    }
+    .img-ind img{
+        height: 250px
+    }
 }
 @media (min-width: 321px) and (max-width : 506px){
     .btn-menu li{
@@ -239,19 +192,37 @@ and (min-width : 1200px)
     .salto-linea{
         display: block;
     }
-    .texto-fijo{
-        top: 2.8%
-    }
-    .texto-fijo .wow{
-        width: 258px;
-        height: 50px;
+    
+}
+@media (max-width:320px){
+    .texto-fijo .texto-interno{
+        width: 200px;
+        height: 35px;
     }
     .texto-fijo h1{
-        font-size: 16px;
-        margin-top: -28px
+        font-size: 13px;
+        margin-top: -28px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -16px
     }
     .texto-fijo h2{
-        font-size: 13px;
-        margin-top: 
+        font-size: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -7px
+    }
+    .img-grupal h1{
+        top: 43%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .img-grupal h1 span{
+        border-radius: 0
+    }
+    .img-ind img{
+        height: 250px
     }
 }
