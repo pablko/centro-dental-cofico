@@ -76,23 +76,24 @@
     left: 0;
     right: 0;
 }
-.texto-fijo .texto-interno{
+.texto-interno{
     width: 500px;
+    height: 60px;
     position: relative;
     margin: 0 auto;
     background-color: rgba( 71, 71, 71, 0.456 );
     border-radius: 12px
 }
-.texto-fijo h1{
-    font-size: 25px;
-    margin-top: -20px;
-    color: #FFF
-}
-.texto-fijo h2{
+.texto-interno h2{
     font-size: 18px;
+    padding-top: 10px;
     color: #FFF
 }
-
+.texto-interno h1{
+    font-size: 25px;
+    margin-top: -10px;
+    color: #FFF
+}
 /*Nosotros*/
 
 .primer-ind{

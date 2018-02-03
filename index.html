@@ -17,17 +17,13 @@
     <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
     
     <!-- CSS -->
-    <link href="assets/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/node_modules/aos/dist/aos.css" rel="stylesheet">
-    <link href="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet">
-    <link href="assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link href="css/demo.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/core.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">    
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="assets/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">    
     
 </head>
 <body>
@@ -63,8 +59,8 @@
     
     <div class="container">
         <section id="header">
-           <div class="texto-fijo">
-               <div class="texto-interno wow fadeInUp anidur-1s">
+           <div class="texto-fijo wow fadeInUp anidur-1s">
+               <div class="texto-interno">
                    <h2>DESDE 1996</h2>
                    <h1>ESTÉTICA SALUD ARMONÍA</h1>
                </div>
@@ -369,44 +365,7 @@
     <script>
         new WOW().init();
     </script>
-    <script type="text/javascript">
-    // This is for header toggle
-    $('.op-clo').on('click', function() {
-        $('body .h7-nav-box').toggleClass("show");
-    });
-    // This is for slider     
-    $('#slider1').bsTouchSlider();
-    $(".carousel .carousel-inner").swipe({
-        swipeLeft: function(event, direction, distance, duration, fingerCount) {
-            this.parent().carousel('next');
-        },
-        swipeRight: function() {
-            this.parent().carousel('prev');
-        },
-        threshold: 0
-    });
-    // This is for counter
-    $('.counter').counterUp({
-        delay: 10
-    });
-    // This is for the testimonial
-    $('.testi9').owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: false,
-        dots: true,
-        autoplay: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            1650: {
-                items: 1
-            }
-        }
-    });
-    </script>
+
     <script>
         $(function(){ 
              var navMain = $("#navbarNav");
@@ -421,14 +380,12 @@
               auto: true,
               speed: 1000,
               onSliderLoad: function () {
-                $('.slider-principal .text-slider').eq(1).addClass('active-slide');
-                $(".text-slider.active-slide").addClass("wow animated fadeInUp anidur-1s");
+                $('.slider-principal').eq(1).addClass('active-slide');
                 },
               onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
                 console.log(currentSlideHtmlObject);
                 $('.active-slide').removeClass('active-slide');
                 $('.slider-principal').eq(currentSlideHtmlObject + 1).addClass('active-slide');
-                $(".text-slider.active-slide").addClass("wow animated fadeInUp anidur-1s");
 
                 },
               onSlideBefore: function () {
