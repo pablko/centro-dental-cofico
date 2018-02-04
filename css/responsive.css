@@ -63,7 +63,6 @@
     }
     .texto-interno h1{
         font-size: 25px;
-        margin-top: -25px
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -84,7 +83,6 @@
     }
     .texto-fijo h1{
         font-size: 25px;
-        margin-top: -25px
     }
 }
 @media (min-width: 576px) and (max-width : 767px){
@@ -101,7 +99,6 @@
     }
     .texto-fijo h1{
         font-size: 20px;
-        margin-top: -30px
     }
 }
 @media (min-width: 507px) and (max-width : 575px){
@@ -119,7 +116,6 @@
     }
     .texto-fijo h1{
         font-size: 18px;
-        margin-top: -25px
     }
 }
 @media (min-width: 507px) and (max-width : 767px){
@@ -146,7 +142,6 @@
     }
     .texto-fijo h1{
         font-size: 18px;
-        margin-top: -25px
     }
 }
 @media (min-width: 321px) and (max-width : 451px){
@@ -177,7 +172,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -16px
+        bottom: -2px
     }
     .img-ind img{
         height: 250px
@@ -195,7 +190,8 @@
 @media (max-width:320px){
     .texto-fijo .texto-interno{
         width: 200px;
-        height: 35px;
+        height: 30px;
+        bottom: -4px
     }
     .texto-fijo h2{
         font-size: 10px;
@@ -210,17 +206,20 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -16px
+        bottom: -4px
     }
     .img-grupal h1{
         top: 43%;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 27px;
     }
     .img-grupal h1 span{
         border-radius: 0
     }
     .img-ind img{
         height: 250px
+    }
+    .salto-linea{
+        display: block;
     }
 }
