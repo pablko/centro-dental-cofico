@@ -26,8 +26,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link href="css/core.css" rel="stylesheet">
     <link href="../css/responsive.css" rel="stylesheet">
@@ -342,7 +342,7 @@
                     <li>Dirección: <b>Rivadeo 1570, 2° Piso Oficina D</b></li>
                     <li>Teléfono: <b>0351 474-2112</b></li>
                     <li>Celular: <b>0351 156-105950</b></li>
-                    <li>Email: <b>centrodentalcofico@hotmail.com</b></li>
+                    <li>Email: <b><a href="mailto:centrodentalcofico@hotmail.com">centrodentalcofico@hotmail.com</a></b></li>
                 </ul>
             </div>
             <div class="col-lg-7 col-md-7 mapa-cont">
@@ -352,10 +352,8 @@
     </section>
     <section id="footer" class="container-fluid">
         <div class="footer-bar">
-            <img src="images/imagotipo-CDC-center.png" alt="">
-            <h6>Centro Dental Cofico  - 2018</h6>
-            <p>Desarrollado por: <remark><a href="https://consonante.xyz" target="_blank">Consonante Design</a></remark></p>
-            <p style="margin-top: 5px">Fotografía: Cristian Carrizo - <a href="mailto: phcristiancarrizo@gmail.com">phcristiancarrizo@gmail.com</a></p>
+            <img src="images/imagotipo-CDC-center.png" alt="Logo de CDC">
+            <p>&copy; <span id="year"></span> - Desarrollado por: <remark><a href="https://pablko.xyz">Pablo Colqui</a></remark> - Fotografía <a href="mailto: phcristiancarrizo@gmail.com">Cristian Carrizo</a></p>
         </div>
     </section>
     <div>
@@ -383,6 +381,7 @@
             // Animate loader off screen
             $(".se-pre-con").fadeOut(500);;
         });
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
     <script>
         new WOW().init();

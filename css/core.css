@@ -228,6 +228,9 @@
 .inf-cont b{
     font-weight: 500
 }
+.inf-cont a {
+    text-decoration: none !important;
+}
 .inf-cont h2{
     text-align: center;
     padding-top: 20px
@@ -277,18 +280,29 @@
 }
 .footer-bar p{
     font-size: 12px;
-    color: #2b4c82;
-    margin-top: -10px;
+    color: #292979;
+    margin-top: 5px;
     margin-bottom: -10px;
     font-weight: 500;
 }
+.footer-bar a {
+    color: #292979 !important;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    transition: linear .2s;
+}
+.footer-bar a:hover {
+    text-decoration: none;
+    color: #3737a1 !important;
+    transition: linear .2s;
+}
 remark a{
     padding: 5px 4px 2px 4px;
-    font-weight: 100;
+    font-weight: bold;
     color: #292979 !important;
     border-radius: 4px;
-    font-family: 'Mogra', cursive;
-    text-transform: uppercase
+    font-family: 'Ubuntu', sans-serif;
+    transition: linear .2s;
 }
 
 /*Botones de acceso rapido*/
